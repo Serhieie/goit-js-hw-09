@@ -1,0 +1,28 @@
+button[data-start] {
+  display: inline-block;
+  margin-left: 38%;
+  margin-right: 60px;
+}
+
+button {
+  margin-top: 200px;
+  opacity: 0.8;
+  width: 140px;
+  background-color: brown;
+  color: white;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+button:disabled {
+  opacity: 0.25;
+}
